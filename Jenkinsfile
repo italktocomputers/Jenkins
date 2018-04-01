@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'italktocomputers/concourse:ubuntu16.04_git'
+      image 'italktocomputers/concourse:ubuntu16.04_python3'
     }
     
   }
