@@ -12,4 +12,7 @@ pipeline {
       }
     }
   }
+  environment {
+    ENV = 'DEV'
+  }
 }
